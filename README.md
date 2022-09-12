@@ -59,10 +59,12 @@ Windows 10, Visual Studio 2013
 
 6. Download the MCL tool (mcl-14-137.tar) from http://www.micans.org/mcl/ and install the MCL tool. 
    For example, if you have installed Cygwin (with automake-1.15, gcc, and make packages), move to "mcl-14-137" directory and run the following commands:
+   ```
    $ cp /usr/share/automake-1.15/config.guess autofoo/config.guess
    $ ./configure
    $ make
    $ make install
+   ```
 
 7. Go to "release\mcl" directory, and run the MCL commands written in "command.txt".
    Region group files (group_en[1-10].txt) are output in "release\mcl" directory. Each line represents a region group with region IDs separated by TAB.
