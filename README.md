@@ -1,4 +1,4 @@
-# GroupSparsityTF
+# GroupSparsityTensorFactorization
 
 This is a source code of re-identification attacks in an open scenario based on group sparsity tensor factorization (GSTF), which is described in the following article: 
 
